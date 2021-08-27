@@ -1,0 +1,15 @@
+#!/bin/sh 
+set -ax
+rundir=/media/extra/ic_inpe/dados_modelo/ctl-modificados
+dia=1
+if [ $dia -lt 10 ] ; then
+dia=0$dia
+fi
+while [ $dia -le 31 ]; do
+	cp $rundir/BRAMS_RJ01km.ctl $rundir/BRAMS_RJ01km_201608$dia.ctl || exit 8
+	dia=`expr $dia \+ 1`
+	if [ $dia -lt 10 ] ; then
+	dia=0$dia
+	fi
+done
+exit 0
