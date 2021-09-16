@@ -1,6 +1,6 @@
 #!/bin/sh 
 set -ax
-rundir=/media/extra/ic_inpe/dados_modelo/dado-hora
+rundir=/...
 dia=1
 mm=8
 mm=0$mm
