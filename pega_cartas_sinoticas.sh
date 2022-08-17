@@ -1,7 +1,7 @@
 # autora: beatriz miranda
 # script para pegar cartas sinoticas diretamente dos sites das instituições
 # loop apenas no dia
-# uso: apos fazer o download do script, digite "chmod +x pega_cartas_sinoticas.sh" no seu terminal
+# uso: apos fazer o download do script digite "chmod +x pega_cartas_sinoticas.sh" no seu terminal. apos isso basta digitar ./pega_cartas_sinoticas.sh
 # para alterar o intervalo de dias basta modificar no script
 
 !/bin/bash
